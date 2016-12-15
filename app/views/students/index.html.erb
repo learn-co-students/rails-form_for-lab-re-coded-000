@@ -1,0 +1,6 @@
+<p>All Students</p>
+<ul>
+<%@students.each do |student|%>
+  <li><%=link_to student.first_name ,student%></li>
+<%end%>
+</ul>
